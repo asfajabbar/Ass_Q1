@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="horizontal"
+        android:background="#32cd32	">
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        android:text="Software Engineer"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+        <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+            android:layout_marginLeft="-330dp"
+                app:srcCompat="@drawable/back" />
+
+        <ImageView
+        tools:layout_editor_absoluteX="360dp"
+        tools:layout_editor_absoluteY="-2dp"
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+            android:layout_marginTop="-2dp"
+        android:layout_marginLeft="240dp"
+        app:srcCompat="@drawable/cross" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="59dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="53dp"
+    tools:layout_editor_absoluteX="-4dp"
+    tools:layout_editor_absoluteY="60dp"
+    android:background="#32cd32	">
+    <ImageView
+        tools:layout_editor_absoluteX="370dp"
+        tools:layout_editor_absoluteY="55dp"
+        android:id="@+id/imageView3"
+        android:layout_width="30dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="8dp"
+        app:srcCompat="@drawable/cross" />
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="San Fransisco,CA(US)"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="30dp"
+        android:layout_height="58dp"
+android:layout_marginLeft="-15dp"
+        app:srcCompat="@drawable/location" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="30dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="35dp"
+        app:srcCompat="@drawable/search" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/job"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="7dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="2dp"
+            android:text="JOBS"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/comp"
+            android:layout_width="147dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="COMPANIES"
+            android:textColor="#FD3F51B5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/sal"
+            android:layout_width="141dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="SALARIES"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#F23F51B5"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tt2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="150dp"
+        android:text=" + "
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:paddingLeft="0dp"
+        android:textColor="#A63F51B5"
+        android:paddingTop="4dp"
+        android:layout_marginTop="150dp"
+        />
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="440dp"
+        tools:layout_editor_absoluteY="150dp"
+        android:text="Create Saved Search "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingLeft="25dp"
+        android:textColor="#A63F51B5"
+        android:paddingTop="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_marginTop="160dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/filterr" />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_marginTop="200dp"
+        />
+</RelativeLayout>
